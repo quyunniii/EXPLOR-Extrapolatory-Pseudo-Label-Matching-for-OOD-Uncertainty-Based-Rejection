@@ -1,0 +1,18 @@
+curated 15255 compounds
+
+###NOTES###
+
+altered 11776 compounds due to 'compound made canonical'
+
+11776 compounds altered during curation
+
+###ISSUES###
+
+removed 3479 after step rdkit due to 'rdkit failed to read molecule'
+removed 376 after step mixture due to 'compound is a mixture'
+removed 230 after step inorganic due to 'compound is inorganic'
+removed 703 after step remove_disagreeing_duplicates due to 'compound has duplicate with disagreeing label'
+removed 1095 after step remove_duplicates_greedy due to 'compound is duplicate'
+
+removed 5883 compounds during curation
+9372 compounds passed curation
