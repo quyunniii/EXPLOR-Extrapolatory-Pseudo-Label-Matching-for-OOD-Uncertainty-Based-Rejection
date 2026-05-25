@@ -8,7 +8,7 @@ Loss: in_ce + in_prob + alpha * conf_ce
   - in_prob:  mean-matching on training data  (|mean(sigmoid(logits)) - mean(labels)|)
   - conf_ce:  BCE on high-confidence expanded data
 
-Results saved to: results/MMELON results.csv  (model row: EXPLOR_full)
+Results saved to: results/EXPLOR_results.csv (model row: EXPLOR_full)
 
 Run:
   source mmelon_env/bin/activate
@@ -32,7 +32,7 @@ from tqdm import tqdm
 warnings.filterwarnings("ignore")
 
 BASE_DIR     = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
-RESULTS_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "results", "MMELON results.csv")
+RESULTS_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "results", "EXPLOR_results.csv")
 
 DATASETS = ["dataset1", "dataset3", "dataset4"]
 THRESHS  = [0.1, 0.2, 0.3, 0.4, 1.0]
