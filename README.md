@@ -9,7 +9,7 @@ Official code for the paper:
 
 > **Reliable OOD Virtual Screening with Extrapolatory Pseudo-Label Matching**  
 > Accepted as a full paper at the 17th ACM Conference on Bioinformatics, Computational Biology, and Health Informatics (ACM-BCB 2026)  
-> [https://arxiv.org/abs/2406.01825](https://arxiv.org/abs/2406.01825)
+> [ACM Digital Library](https://dl.acm.org/doi/10.1145/3807503.3819476)
 
 ---
 
@@ -171,15 +171,19 @@ Metrics reported:
 If you use this code in your research, please cite:
 
 ```bibtex
-@misc{explor2024,
-  title         = {Reliable OOD Virtual Screening with Extrapolatory Pseudo-Label Matching},
-  author        = {Qu, Yunni and Vaduri, Bhargav and Jatoth, Karthikeya and Wellnitz, James and Dinh, Dzung and Veenbaas, Seth and Chapman, Jonathan and Tropsha, Alexander and Oliva, Junier},
-  year          = {2024},
-  eprint        = {2406.01825},
-  archivePrefix = {arXiv},
-  primaryClass  = {cs.LG},
-  url           = {https://arxiv.org/abs/2406.01825}
+@inbook{10.1145/3807503.3819476,
+author = {Qu, Yunni and Vaduri, Bhargav and Jatoth, Karthikeya and Wellnitz, James and Dinh, Dzung and Veenbaas, Seth and Chapman, Jonathan and Tropsha, Alexander and Oliva, Junier},
+title = {Reliable OOD Virtual Screening with Extrapolatory Pseudo-Label Matching},
+year = {2026},
+isbn = {9798400726538},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3807503.3819476},
+booktitle = {Proceedings of the 17th ACM International Conference on Bioinformatics, Computational Biology and Health Informatics},
+articleno = {37},
+numpages = {10}
 }
+
 ```
 
 ---
